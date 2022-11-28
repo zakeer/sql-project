@@ -1,0 +1,6 @@
+We create a SQL Project on students details
+
+Table Create for Students Table
+- Student
+
+And Also added INSERT Queries
