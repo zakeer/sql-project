@@ -1,8 +1,9 @@
 CREATE TABLE "student" (
-	"id"	INTEGER ,
-	"name"	TEXT NOT NULL,
-	"class"	TEXT NOT NULL,
-	"mark"	INTEGER NOT NULL DEFAULT 0,
-	"gender"	TEXT NOT NULL,
+	"id"			INTEGER ,
+	"name"		TEXT 			NOT NULL,
+	"class"		TEXT 			NOT NULL,
+	"mark"		INTEGER 	NOT NULL DEFAULT 0,
+	"gender"	TEXT 			NOT NULL,
+	"DOB"			DATETIME	NOT NULL,
 	PRIMARY KEY("id" AUTOINCREMENT)
 );
